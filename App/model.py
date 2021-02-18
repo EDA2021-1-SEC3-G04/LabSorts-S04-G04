@@ -204,4 +204,4 @@ def sortBooks(catalog, size):
     sa.sort(sub_list, compareratings)
     stop_time = time.process_time()
     elapsed_time_mseg = (stop_time - start_time)*1000
-    return elapsed_time_mseg
+    return elapsed_time_mseg, sub_list
