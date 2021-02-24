@@ -85,7 +85,7 @@ def printResults(ord_books, sample=10):
     size = lt.size(ord_books)
     if size > sample:
         print("Los primeros ", sample, " libros ordenados son:")
-        i = 0
+        i = 1
         while i <= sample:
             book = lt.getElement(ord_books, i)
             print('Titulo: ' + book['title'] + ' ISBN: ' +
